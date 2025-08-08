@@ -74,7 +74,7 @@ b=int(input("输入十进制整数："))
 bin_a=bin(a)
 bin_b=bin(b)
 """""
-plainData = '你好呀！'
+plainData = '你好，Sha256！'
 Hash = sha256(plainData.encode('utf-8'))
 #print("hash: %s" % Hash.digest())
 #print(bin(Hash))
@@ -92,3 +92,4 @@ print("hash_hexdigest: %s" % HexstrAndDecint.DecintToHexstr(decint))
     # print('random number r: ',self.r)
     # print(self.t)
     # print(self.nonce)
+
