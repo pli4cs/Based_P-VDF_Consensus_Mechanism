@@ -5,13 +5,13 @@ Generally, existing consensus mechanisms cannot resist on parallel computing and
 ## Description
 His is the prototype code for the following paper implementation. Among them, `OursConsensusMechanism.py` is the prototype experimental code of the P-VDF-based blockchain consensus mechanism in Paper 1, `P-VDF.py` is the prototype code of the practical verifiable delay function P-VDF derived from Paper 3 adopted in Paper 1, `PoW.py` is the prototype code of the consensus mechanism based on proof of work, and `TestSha256.py` is the prototype code for testing the secure hash function sha256. Please cite the following paper if it is helpful or helpful to you.
 
-`Paper 1`: 李鹏, 张明武, 杨波. 一种抗并行计算的公开可验证出块权的区块链共识机制. 密码学报. 2024, 11(6): 1370-1385 https://doi.org/10.13868/j.cnki.jcr.000742
-LI P, ZHANG M W, YANG B. Blockchain Consensus Mechanism with Publicly Verifiable Block Rights Against Parallel Computing. Journal of Cryptologic Research. 2024, 11(6): 1370-1385 https://doi.org/10.13868/j.cnki.jcr.000742
+`Paper 1`: 李鹏, 张明武, 杨波. 一种抗并行计算的公开可验证出块权的区块链共识机制. 密码学报. 2024, 11(6): 1370-1385. https://doi.org/10.13868/j.cnki.jcr.000742
+LI P, ZHANG M W, YANG B. Blockchain Consensus Mechanism with Publicly Verifiable Block Rights Against Parallel Computing. Journal of Cryptologic Research. 2024, 11(6): 1370-1385. https://doi.org/10.13868/j.cnki.jcr.000742
 
-`Paper 2`: 李鹏, 张明武, 杨波. 可验证延迟函数与延迟加密研究综述. 密码学报. 2024, 11(2): 282-307 https://doi.org/10.13868/j.cnki.jcr.000680
-LI P, ZHANG M W, YANG B. A Survey on Verifiable Delay Functions and Delay Encryptions. Journal of Cryptologic Research. 2024, 11(2): 282-307 https://doi.org/10.13868/j.cnki.jcr.000680
+`Paper 2`: 李鹏, 张明武, 杨波. 可验证延迟函数与延迟加密研究综述. 密码学报. 2024, 11(2): 282-307. https://doi.org/10.13868/j.cnki.jcr.000680
+LI P, ZHANG M W, YANG B. A Survey on Verifiable Delay Functions and Delay Encryptions. Journal of Cryptologic Research. 2024, 11(2): 282-307. https://doi.org/10.13868/j.cnki.jcr.000680
 
-`Paper 3`: A Survey on Verifiable Delay Functions and Delay Encryptions[J]. Journal of Cryptologic Research. 2024, 11(2): 282-307 https://doi.org/10.13868/j.cnki.jcr.000680
+`Paper 3`: A practical verifiable delay function and delay encryption scheme[J/OL]. IACR Cryptology ePrint Archive, 2021: 2021/1293. https://eprint.iacr.org/archive/2021/1293/1632747823.pdf
 
 
 ## Dependencies
