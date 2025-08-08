@@ -4,7 +4,11 @@ import time
 import math
 import random
 from Crypto.Util import number
-
+'''
+This is the prototype code of the consensus mechanism proposed in the following paper. Please cite it if it is helpful.
+李鹏, 张明武, 杨波. 一种抗并行计算的公开可验证出块权的区块链共识机制. 密码学报. 2024, 11(6): 1370-1385 https://doi.org/10.13868/j.cnki.jcr.000742
+LI P, ZHANG M W, YANG B. Blockchain Consensus Mechanism with Publicly Verifiable Block Rights Against Parallel Computing. Journal of Cryptologic Research. 2024, 11(6): 1370-1385 https://doi.org/10.13868/j.cnki.jcr.000742
+'''
 SEC_PARM_BIT=1024 #PracticalVDF的安全参数位数
 TIMESTEP=400000    #PracticalVDF的时间参数
 DIFFICULTY=5   #区块链的出块的目标难度，表示16进制表示的sha256哈希值有多少个0为前导
@@ -366,3 +370,4 @@ def main():
     print(myCoin.chainIsValid())
 if __name__ == '__main__':
     main()
+
